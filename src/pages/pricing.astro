@@ -1,0 +1,59 @@
+---
+import { changeLanguage } from "i18next";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+import Pricing from "@components/pricing.astro";
+import Logos from "@components/logos.astro";
+import Faq from "@components/faq.astro";
+
+changeLanguage("en");
+
+const pricingData = [
+    {
+        name: "Selfhosted",
+        price: "Free",
+        popular: false,
+        features: ["Lifetime free", "Configuration generation", "SDN"],
+        button: {
+            text: "Get Started",
+            link: "https://github.com/tawfekk/cisco.pm?tab=readme-ov-file#selfhosting",
+        },
+    },
+    {
+        name: "Hosted",
+        price: {
+            monthly: "Free",
+            annual: "$16",
+            discount: "10%",
+            original: "$24",
+        },
+        popular: true,
+        features: [
+            "All selfhosted features",
+            "Cloud hosted frontend",
+            "Collaboration support",
+            "Guaranteed uptime"
+        ],
+        button: {
+            text: "Get Started",
+            link: "https://app.cisco.pm",
+        },
+    }
+];
+---
+
+<Layout title="Pricing">
+	<Container>
+		<Sectionhead>
+			<Fragment slot="title">Pricing</Fragment>
+			<Fragment slot="desc">Simple pricing: free forever</Fragment>
+		</Sectionhead>
+
+		<div class="grid md:grid-cols-2 gap-10 mx-auto max-w-4xl mt-20">
+			{pricingData.map((item) => <Pricing plan={item} />)}
+		</div>
+		<!-- <Logos /> -->
+		<Faq />
+	</Container>
+</Layout>

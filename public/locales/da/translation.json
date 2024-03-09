@@ -1,0 +1,50 @@
+{
+	"hero": {
+		"title": "Forbedret webudvikling!",
+		"subtitle": "Frigør kraften i web: Kombiner Astro, Tailwind CSS og Alpine.js for at forenkle din webudviklingsproces.",
+		"globe_title": "Skab fantastiske, højtydende websites med lethed og hastighed.",
+		"main_button_text": "Download fra GitHub",
+		"secondary_button_text": "Gå til animeret version"
+	},
+	"hero_animated": {
+		"secondary_button_text": "Gå til grundlæggende version"
+	},
+	"header": {
+		"features": "Funktioner",
+		"pricing": "Priser",
+		"blog": "Blog",
+		"contact": "Kontakt",
+		"primary_button_text": "Kom i gang",
+		"secondary_button_text": "Login"
+	},
+	"features": {
+		"learn_more": "Læs mere",
+		"title": "Funktioner",
+		"subtitle": "Alle de værktøjer, du har brug for",
+		"description": "Astro er en højtydende statisk webstedsgenerator, der integrerer sømløst med Tailwind CSS og Alpine.js. Det giver dig mulighed for at bygge websites med lethed og hastighed uden at gå på kompromis med ydeevnen.",
+		"astro": "Astro er det alt-i-en webframework designet til hastighed. Hent dit indhold fra hvor som helst og distribuer det overalt, alt sammen drevet af dine foretrukne UI-komponenter og biblioteker.",
+		"alpine": "Alpine er et robust og minimalistisk værktøj til at tilføje adfærd direkte i din markup. Tænk på det som jQuery til moderne webudvikling. Tilføj et script-tag og kom i gang.",
+		"tailwind": "Et CSS-rammeværk baseret på utility-klasser, der kan kombineres til at opbygge ethvert design direkte i din markup.",
+		"localization": "En integration af i18next med Astro + nogle hjælpekomponenter til at hjælpe dig med at oversætte dine Astro-websites!",
+		"light_dark_mode": "Mørk tilstand baseret på Tailwind-klasser.",
+		"giscus": "Et kommentarsystem drevet af GitHub-diskussioner. Lad besøgende efterlade kommentarer og reaktioner på dit website via GitHub!",
+		"decapcms": "Open source-indholdsadministration til din Git-workflow",
+		"rss": "RSS-feed genereret af @astrojs/rss",
+		"articlegenerator": "Brug kunstig intelligens til at generere artikler til din blog"
+	},
+	"faq": {
+		"title": "Ofte stillede spørgsmål"
+	},
+	"newsletter": {
+		"title": "Tilmeld dig vores nyhedsbrev",
+		"subtitle": "Modtag meddelelser om de seneste opdateringer og nyheder.",
+		"input_placeholder": "Indtast din e-mail",
+		"button_text": "Tilmeld",
+		"privacy": "Vi værner om din privatliv. Læs vores",
+		"privacy_link": "Privatlivspolitik."
+	},
+	"blog": {
+		"prev": "Forrige",
+		"next": "Næste"
+	}
+}
