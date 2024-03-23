@@ -1,6 +1,6 @@
 ---
 title: The Power and Potential of ChatGPT
-draft: false
+draft: true
 author: Jon Doe
 tags:
   - ai
@@ -9,9 +9,7 @@ tags:
 image:
   src: /images/chat-gpt.png
   alt: chatgpt
-snippet: Unveiling the world of advanced AI with ChatGPT, a sophisticated
-  chatbot that uses machine learning to generate human-like text. Discover its
-  applications, strengths, limitations, and future potential.
+snippet: Unveiling the world of advanced AI with ChatGPT, a sophisticated chatbot that uses machine learning to generate human-like text. Discover its applications, strengths, limitations, and future potential.
 publishDate: 2023-07-01 00:00
 category: AI and ML
 ---

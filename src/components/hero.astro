@@ -40,19 +40,19 @@ const { dynamic = false } = Astro.props;
 					{t("hero.subtitle")}
 				</p>
 				<div class="mt-10 flex items-center justify-center gap-x-2 md:gap-x-6">
-					<Link href="https://app.cisco.pm" class="md:px-3 md:py-2 leading-6 dark:bg-primary dark:text-white dark:hover:bg-[#7063c0]">
+					<Link href="https://app.cisco.pm" class="md:py-2 leading-6 dark:bg-primary dark:text-white dark:hover:text-bg-primary">
 						{t("hero.main_button_text")}
 					</Link>
 					{
 						dynamic ? (
-							<Link href="/" style="muted" class="dark:hover:text-[#7063c0]">
+							<Link href="/blog" style="muted" class="dark:hover:text-[#7063c0]">
 								{t("hero_animated.secondary_button_text")}
 								<span aria-hidden="true" class="pl-1 text-black dark:text-white dark:hover:text-[#7063c0]">
 									→
 								</span>
 							</Link>
 						) : (
-							<Link href="/animated" style="muted" class="dark:hover:text-[#7063c0]" >
+							<Link href="/blog" style="muted" class="dark:hover:text-[#7063c0]" >
 								{t("hero.secondary_button_text")}
 								<span aria-hidden="true" class="pl-1 text-black dark:text-white dark:hover:text-[#7063c0]">
 									→

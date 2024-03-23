@@ -1,0 +1,21 @@
+---
+import { changeLanguage } from "i18next";
+import { Icon } from "astro-icon";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+
+changeLanguage("en");
+---
+
+<Layout title="Legal">
+	<Container>
+		<Sectionhead>
+			<Fragment slot="title">Legal Information</Fragment>
+			<Fragment slot="desc">cisco.pm is not affiliated with Cisco Systems Inc. All trademarks and logos belong to their respective owners.
+				<br><br>
+				For legal matters, please write an email at <a href="mailto:legal@cisco.pm" class="text-blue-500">legal@cisco.pm</a>
+			</Fragment>
+		</Sectionhead>
+	</Container>
+</Layout>

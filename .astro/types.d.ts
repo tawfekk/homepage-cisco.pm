@@ -126,16 +126,65 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
-"en/harnessing-the-power-of-tiktok.md": {
-	id: "en/harnessing-the-power-of-tiktok.md";
-  slug: "en/harnessing-the-power-of-tiktok";
+"da/configuring-bgp-on-a-cisco-router.md": {
+	id: "da/configuring-bgp-on-a-cisco-router.md";
+  slug: "da/configuring-bgp-on-a-cisco-router";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"en/introducing-decap-cms-your-go-to-solution-for-content-management.md": {
-	id: "en/introducing-decap-cms-your-go-to-solution-for-content-management.md";
-  slug: "en/introducing-decap-cms-your-go-to-solution-for-content-management";
+"da/configuring-eigrp-on-a-cisco-router.md": {
+	id: "da/configuring-eigrp-on-a-cisco-router.md";
+  slug: "da/configuring-eigrp-on-a-cisco-router";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"da/configuring-ospf-on-a-cisco-route.md": {
+	id: "da/configuring-ospf-on-a-cisco-route.md";
+  slug: "da/configuring-ospf-on-a-cisco-route";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"da/introduction-to-astro-a-new-front-end-framework.md": {
+	id: "da/introduction-to-astro-a-new-front-end-framework.md";
+  slug: "da/introduction-to-astro-a-new-front-end-framework";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"da/simplifying-front-end-interactivity-with-alpine-js.md": {
+	id: "da/simplifying-front-end-interactivity-with-alpine-js.md";
+  slug: "da/simplifying-front-end-interactivity-with-alpine-js";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"da/the-power-and-potential-of-chatgpt.md": {
+	id: "da/the-power-and-potential-of-chatgpt.md";
+  slug: "da/the-power-and-potential-of-chatgpt";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"en/configuring-bgp-on-a-cisco-router.md": {
+	id: "en/configuring-bgp-on-a-cisco-router.md";
+  slug: "en/configuring-bgp-on-a-cisco-router";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"en/configuring-eigrp-on-a-cisco-router.md": {
+	id: "en/configuring-eigrp-on-a-cisco-router.md";
+  slug: "en/configuring-eigrp-on-a-cisco-router";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"en/configuring-ospf-on-a-cisco-router.md": {
+	id: "en/configuring-ospf-on-a-cisco-router.md";
+  slug: "en/configuring-ospf-on-a-cisco-router";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -157,55 +206,6 @@ declare module 'astro:content' {
 "en/the-power-and-potential-of-chatgpt.md": {
 	id: "en/the-power-and-potential-of-chatgpt.md";
   slug: "en/the-power-and-potential-of-chatgpt";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"en/unleashing-the-power-of-tailwind-css.md": {
-	id: "en/unleashing-the-power-of-tailwind-css.md";
-  slug: "en/unleashing-the-power-of-tailwind-css";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"it/harnessing-the-power-of-tiktok.md": {
-	id: "it/harnessing-the-power-of-tiktok.md";
-  slug: "it/harnessing-the-power-of-tiktok";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"it/introducing-decap-cms-your-go-to-solution-for-content-management.md": {
-	id: "it/introducing-decap-cms-your-go-to-solution-for-content-management.md";
-  slug: "it/introducing-decap-cms-your-go-to-solution-for-content-management";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"it/introduction-to-astro-a-new-front-end-framework.md": {
-	id: "it/introduction-to-astro-a-new-front-end-framework.md";
-  slug: "it/introduction-to-astro-a-new-front-end-framework";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"it/simplifying-front-end-interactivity-with-alpine-js.md": {
-	id: "it/simplifying-front-end-interactivity-with-alpine-js.md";
-  slug: "it/simplifying-front-end-interactivity-with-alpine-js";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"it/the-power-and-potential-of-chatgpt.md": {
-	id: "it/the-power-and-potential-of-chatgpt.md";
-  slug: "it/the-power-and-potential-of-chatgpt";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"it/unleashing-the-power-of-tailwind-css.md": {
-	id: "it/unleashing-the-power-of-tailwind-css.md";
-  slug: "it/unleashing-the-power-of-tailwind-css";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

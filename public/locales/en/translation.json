@@ -1,18 +1,20 @@
 {
 	"hero": {
 		"title": "Streamline your Cisco network.",
-		"subtitle": "Unleashing the Power of the Web: Combines Astro, Tailwind CSS and Alpine.js to Streamline Your Web Development Process.",
+		"subtitle": "Take command of your network with the cisco.pm platform, tailored for simplicity and effectiveness.",
 		"globe_title": "Deploy a large scale network in minutes",
 		"main_button_text": "Launch now",
-		"secondary_button_text": "Read docs"
+		"secondary_button_text": "Learn about networking"
 	},
 	"hero_animated": {
-		"secondary_button_text": "Read docs"
+		"secondary_button_text": "Learn about networking"
 	},
 	"header": {
 		"features": "Features",
 		"pricing": "Pricing",
-		"blog": "Blog",
+		"blog": "Learn",
+		"legal": "Legal",
+		"privacy": "Privacy",
 		"contact": "Contacts",
 		"primary_button_text": "Launch now",
 		"secondary_button_text": "Source code"
@@ -22,12 +24,13 @@
 		"title": "Features",
 		"subtitle": "All the tools you need",
 		"description": "Astro is a high-performance static site builder that seamlessly integrates with Tailwind CSS and Alpine.js. It allows you to build websites with ease and speed, without sacrificing on performance.",
-		"astro": "Astro is the all-in-one web framework designed for speed. Pull your content from anywhere and deploy everywhere, all powered by your favorite UI components and libraries.",
-		"alpine": "Alpine is a rugged, minimal tool for composing behavior directly in your markup. Think of it like jQuery for the modern web. Plop in a script tag and get going.",
-		"tailwind": "A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.",
-		"localization": "An astro integration of i18next + some utility components to help you translate your astro websites!",
-		"light_dark_mode": "Light/Dark mode based on tailwind classes",
-		"giscus": "A comments system powered by GitHub Discussions. Let visitors leave comments and reactions on your website via GitHub!",
+		"configurationgeneration": "Automate the tedious process of Cisco device configuration. Simply input your network requirements, and let our platform generate optimized configurations.",
+		"worktogether": "Teams can work together on the same project - share your session, and track changes in real-time.",
+		"sdnconnector": "Become your own Software-Defined Networking (SDN) orchestrator by simply installing a plugin that makes it possible to push new configurations directly from within the cisco.pm platform",
+		"Validation and Testing": "Ensure configuration accuracy and compliance with built-in validation and testing features. Identify and rectify errors before deployment, minimizing downtime and operational risks.",
+		"Version Control": "A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.",
+		"Collaboration Support": "Facilitate teamwork and collaboration among network administrators with built-in collaboration features. Share configurations, collaborate on projects, and track changes collaboratively within our platform",
+		"Feedback Mechanism": "We value your feedback! Share your suggestions and feature requests with us, and help shape the future development of our webapp. Your input matters to us",
 		"decapcms": "Open source content management for your Git workflow",
 		"rss": "RSS feed generato da @astrojs/rss",
 		"articlegenerator": "Use AI to generate your articles posts"

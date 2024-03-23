@@ -1,19 +1,16 @@
 ---
-title: "Presentazione di Decap CMS La Tua Soluzione Ideale per la Gestione dei Contenuti"
+title: Presentazione di Decap CMS La Tua Soluzione Ideale per la Gestione dei Contenuti
 draft: false
-author: Jon Doe
+author: engirr
 tags:
   - decapcms
 image:
-  src: /images/decapcms.png
+  src: /images/pexels-jah-nomad-17220238.jpg
   alt: Decap CMS
-snippet: Decap CMS, precedentemente noto come Netlify CMS, è un sistema di
-  gestione dei contenuti open source che offre agli sviluppatori un modo
-  semplice per gestire contenuti per i generatori di siti statici.
+snippet: Decap CMS, precedentemente noto come Netlify CMS, è un sistema di gestione dei contenuti open source che offre agli sviluppatori un modo semplice per gestire contenuti per i generatori di siti statici.
 publishDate: 2023-07-01 23:14
 category: Tutorials
 ---
-
 Decap CMS, precedentemente noto come Netlify CMS, è un sistema di gestione dei contenuti open source che offre agli sviluppatori un modo semplice per gestire contenuti per i generatori di siti statici.
 
 ## Cos'è Decap CMS?

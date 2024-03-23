@@ -1,6 +1,6 @@
 ---
 title: Simplifying Front-End Interactivity with Alpine.js
-draft: false
+draft: true
 author: Jon Doe
 tags:
   - alpinejs
@@ -8,8 +8,7 @@ tags:
 image:
   src: /images/alpinjs.png
   alt: Alpine.js
-snippet: Alpine.js is a lightweight JavaScript framework for building
-  interactive front-end components with simplicity and flexibility.
+snippet: Alpine.js is a lightweight JavaScript framework for building interactive front-end components with simplicity and flexibility.
 publishDate: 2023-07-01 23:08
 category: Frameworks
 ---

@@ -1,0 +1,38 @@
+---
+import { changeLanguage } from "i18next";
+import { Icon } from "astro-icon";
+import Layout from "@layouts/Layout.astro";
+import Container from "@components/container.astro";
+import Sectionhead from "@components/sectionhead.astro";
+
+changeLanguage("en");
+---
+<Layout title="Privacy Policy">
+	<Container>
+		<Sectionhead>
+			<Fragment slot="title">Privacy Policy</Fragment>
+			<Fragment slot="desc">
+				At cisco.pm, we take your privacy seriously. This privacy policy explains how we collect, use, and disclose your information when you visit use our platform.
+				<br><br>
+				<ul style="list-style: inside;" class="dark:text-white">
+					<li><b>Information We Collect</b><br>
+					We may collect potentially confidential information such as hostnames, usernames, and IP-addresses from networking devices that you created within our platform. This aforementioned only applies when using the "shared session" feature on the platform. We also collect personal information that you activly provide to us, such as your name and/or email address.</li><br>
+					<li><b>How We Use Your Information</b><br>
+					We use the information we collect to provide and improve our services, personalize your experience, and communicate with you. No information is ever used for marketing purposes.</li><br>
+					<li><b>Information Sharing and Disclosure</b><br>
+					We may share your personal information with third-party service providers who assist us in operating our website and providing our services. We may also disclose your information in response to legal requests or to protect our rights and safety.</li><br>
+					<li><b>Data Retention</b><br>
+					We retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law.</li><br>
+					<li><b>Security</b><br>
+					We take reasonable measures to protect your personal information from unauthorized access, use, or disclosure. However, no method of transmission over the internet or electronic storage is 100% secure.</li><br>
+					<li><b>Your Rights</b><br>
+					You have the right to access, correct, and delete your personal information. You may also have the right to restrict or object to certain processing activities. Please contact us at privacy@cisco.pm to exercise your rights.</li><br>
+					<li><b>Changes to this Privacy Policy</b><br>
+					We may update this Privacy Policy from time to time. Any changes will be posted on this page, and the revised version will be effective immediately upon posting.</li><br>
+				</ul>
+				<br>
+				<a class="dark:text-white"> If you have any questions or concerns about our privacy policy, please contact us at <a href="mailto:privacy@cisco.pm" class="text-blue-500">privacy@cisco.pm</a>.</a>
+			</Fragment>
+		</Sectionhead>
+	</Container>
+</Layout>
