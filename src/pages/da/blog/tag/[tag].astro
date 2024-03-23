@@ -36,7 +36,7 @@ export async function getStaticPaths() {changeLanguage('da')
 const { posts, tag, lang } = Astro.props;
 ---
 
-<Layout title="Blog" lang={lang}>
+<Layout title="Blog">
 	<Container>
 		<Sectionhead>
 			<Fragment slot="title">#{tag}</Fragment>

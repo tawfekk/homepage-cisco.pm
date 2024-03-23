@@ -40,15 +40,13 @@ export async function getStaticPaths({ paginate }) {changeLanguage('da')
 const { page } = Astro.props;
 ---
 
-<Layout title="Blog" lang="da">
-    <Container>
-        <Sectionhead>
-            <Fragment slot="title">Our Blog</Fragment>
-            <Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
-        </Sectionhead>
-        <Posts posts={page.data as any} />
-        <Pagination class="mt-20" prevUrl={(page.url as any).prev} nextUrl={(page.url as any).next} />
-    </Container>
-</Layout>
+<Layout title="Blog">
+	<Container>
+		<Sectionhead>
+			<Fragment slot="title">Networking. Simplified.</Fragment>
+			<Fragment slot="desc">Detailed blogpost about Cisco networking and tutorials</Fragment>
+		</Sectionhead>
+		<Posts posts={page.data} />
+		<Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} />
 	</Container>
 </Layout>
