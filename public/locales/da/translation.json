@@ -26,7 +26,7 @@
 		"description": "Astro er en højtydende statisk webstedsbygger, der integrerer problemfrit med Tailwind CSS og Alpine.js. Det giver dig mulighed for at bygge websteder nemt og hurtigt uden at gå på kompromis med ydeevnen.",
 		"configurationgeneration": "Automatiser den kedelige proces med konfiguration af Cisco-enheder. Indtast blot dine netværkskrav, og lad vores platform generere præcise og optimerede konfigurationer på få minutter.",
 		"worktogether": "Hold kan arbejde sammen på det samme projekt - del din session og følg ændringer i realtid.",
-		"sdnconnector": "Bliv din egen Software-Defined Networking (SDN)-orkestrator ved blot at installere sdn-connector-plugin'en. Administrer og kontroller din netværksinfrastruktur direkte fra cisco.pm-platformen",
+		"sdnconnector": "Vær din egen Software-Defined Networking (SDN)-orkestrator ved blot at installere sdn-connector-plugin'et. Administrer og kontroller din netværksinfrastruktur direkte fra cisco.pm-platformen",
 		"Validation and Testing": "Sikre konfigurationsnøjagtighed og overholdelse med indbyggede validerings- og testfunktioner. Identificer og ret fejl inden implementering, og minimer nedetid og operationelle risici.",
 		"Version Control": "Et værktøj-først CSS-rammeværk fyldt med klasser, der kan sammensættes til at opbygge ethvert design direkte i din markup.",
 		"Collaboration Support": "Faciliter teamwork og samarbejde mellem netværksadministratorer med indbyggede samarbejdsfunktioner. Del konfigurationer, samarbejd om projekter og følg ændringer i fællesskab inden for vores platform",
