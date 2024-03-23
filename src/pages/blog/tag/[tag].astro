@@ -9,7 +9,7 @@ import Pagination from "@components/blog/pagination.astro";
 
 changeLanguage("en");
 
-export async function getStaticPaths() {changeLanguage('en')
+export async function getStaticPaths() {
     const posts = await getCollection("blog", ({ data }) => {
         return !data.draft && data.publishDate < new Date();
     });
